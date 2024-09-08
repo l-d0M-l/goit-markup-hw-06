@@ -29,7 +29,7 @@ ol {
   color: #4d5ae5;
 }
 .text-blue {
-  color: #f4f4fd; 
+  color: #2e2f42; #f4f4fd
 }
 .nav-menu-list-link {
   font-family: "Roboto", sans-serif;
@@ -156,10 +156,6 @@ ol {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-}
-.portfolio-card {
-  width: 360px;
-  height: 420px;
 }
 .portfolio-card-title {
   font-weight: 500;
