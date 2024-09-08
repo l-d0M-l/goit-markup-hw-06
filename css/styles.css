@@ -42,7 +42,7 @@ ol {
 .nav-menu-list-link:hover,
 .nav-menu-list-link:focus,
 .adress-link:hover,
-.adress-link:focus, {
+.adress-link:focus {
   color: #404bbf;
 }
 .header-address {
