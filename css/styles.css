@@ -40,7 +40,9 @@ ol {
   color: #2e2f42;
 }
 .nav-menu-list-link:hover,
-.nav-menu-list-link:focus,
+.nav-menu-list-link:focus {
+  color: #404bbf;
+}
 .adress-link:hover,
 .adress-link:focus {
   color: #404bbf;
