@@ -29,7 +29,7 @@ ol {
   color: #4d5ae5;
 }
 .text-span {
-  color: #2e2f42; 
+  color: #2e2f42;
 }
 .nav-menu-list-link {
   font-family: "Roboto", sans-serif;
@@ -179,6 +179,18 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.logo2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.text-span2 {
   color: #f4f4fd;
 }
 /* ========/footer styles ===========*/
