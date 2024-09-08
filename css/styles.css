@@ -28,8 +28,8 @@ ol {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.text-blue {
-  color: #2e2f42; #f4f4fd
+.text-span {
+  color: #2e2f42; 
 }
 .nav-menu-list-link {
   font-family: "Roboto", sans-serif;
@@ -128,8 +128,6 @@ ol {
 }
 .our-team-prof-card {
   background-color: #ffffff;
-  width: 264px;
-  height: 380px;
 }
 .our-team-card-title {
   font-weight: 500;
