@@ -10,11 +10,13 @@ a {
 }
 button {
   font-family: inherit;
+  cursor: pointer;
 }
 ul,
 ol {
   list-style-type: none;
 }
+/* ========/initial styles====== */
 
 /* =======header styles======= */
 .logo {
@@ -37,12 +39,22 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.nav-menu-list-link:hover,
+.nav-menu-list:active,
+.adress-mail:hover,
+.adress-mail:active,
+.adress-tel:hover,
+.adress-tel:active {
+  color: #404bbf;
+}
 .adress-mail {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: inherit;
+  font-style: normal;
 }
 .adress-tel {
   font-family: "Roboto", sans-serif;
@@ -50,4 +62,134 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: inherit;
+  font-style: normal;
 }
+
+/* =======/header styles======= */
+
+/* ========hero section styles========= */
+.hero-section {
+  background-color: #2e2f42;
+  /* height: 600px; */
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-button {
+  border-radius: 4px;
+  /* padding: 16px 32px; */
+  width: 169px;
+  height: 56px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  font-size: 16px;
+}
+.hero-button:hover,
+.hero-button:active {
+  background: #404bbf;
+}
+/* ========/hero section styles========= */
+
+/* =======advantages section styles====== */
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.advantages-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* =======/advantages section styles====== */
+
+/* ========our team section styles========= */
+.our-team-section {
+  background-color: #f4f4fd;
+}
+.our-team-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-team-prof-card {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+}
+.our-team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-team-role {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+/* ========/our team section styles========= */
+
+/* ========portfolio section styles========= */
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-card {
+  width: 360px;
+  height: 420px;
+}
+.portfolio-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ========/portfolio section styles========= */
+
+/* ========footer styles ===========*/
+.page-footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/* ========/footer styles ===========*/
