@@ -41,10 +41,8 @@ ol {
 }
 .nav-menu-list-link:hover,
 .nav-menu-list-link:focus,
-.adress-mail:hover,
-.adress-mail:focus,
-.adress-tel:hover,
-.adress-tel:focus {
+.adress-link:hover,
+.adress-link:focus, {
   color: #404bbf;
 }
 .header-address {
