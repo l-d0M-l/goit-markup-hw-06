@@ -37,10 +37,15 @@ p {
   padding: 0 15px;
   margin: 0 auto;
 }
+.section {
+  padding: 120px 0;
+}
 /* ========/initial styles====== */
 
 /* =======header styles======= */
-
+.page-header{
+  border-bottom: 1px solid #e7e9fc;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -146,9 +151,7 @@ p {
 /* ========/hero section styles========= */
 
 /* =======advantages section styles====== */
-.advantages-section {
-  padding: 120px 0;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -189,9 +192,7 @@ p {
 /* =======/advantages section styles====== */
 
 /* ========our team section styles========= */
-.our-team-section {
-  padding: 120px 0;
-}
+
 .our-team-section {
   background-color: #f4f4fd;
 }
@@ -239,9 +240,7 @@ p {
 /* ========/our team section styles========= */
 
 /* ========portfolio section styles========= */
-.portfolio-section {
-  padding: 120px 0;
-}
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
