@@ -685,7 +685,7 @@ p {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #2e2f42;
+
   padding: 8px 16px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -744,7 +744,7 @@ p {
 .modal-policy-checkbox:focus
   + .modal-privacy-policy-text
   > .modal-privacy-custom-checkbox {
-  border: 1px solid #4d5ae5;
+  outline: 1px solid #4d5ae5;
 }
 
 .modal-policy-checkbox:checked
