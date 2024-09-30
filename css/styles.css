@@ -467,9 +467,6 @@ p {
 }
 
 .footer-subscribe {
-  display: flex;
-  flex-direction: column;
-  row-gap: 16px;
 }
 .footer-subscribe-title {
   font-weight: 500;
@@ -477,6 +474,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 .footer-form {
   display: flex;
@@ -703,7 +701,7 @@ p {
 }
 .modal-privacy-policy-text {
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   padding-left: 0;
@@ -729,47 +727,34 @@ p {
   fill: transparent;
   cursor: pointer;
   margin-right: 8px;
-}
-
-.modal-policy-checkbox:checked + .modal-privacy-policy-text > .modal-privacy-custom-checkbox {
-  background-color: #404bbf;
-  border: none;
-
-}
-.modal-policy-checkbox:focus + .modal-privacy-policy-text > .modal-privacy-custom-checkbox {
-  border: 1px solid #4d5ae5;
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-policy-checkbox:checked
-  + .modal-privacy-policy-text > .modal-privacy-custom-checkbox
+  + .modal-privacy-policy-text
+  > .modal-privacy-custom-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.modal-policy-checkbox:focus
+  + .modal-privacy-policy-text
+  > .modal-privacy-custom-checkbox {
+  border: 1px solid #4d5ae5;
+}
+
+.modal-policy-checkbox:checked
+  + .modal-privacy-policy-text
+  > .modal-privacy-custom-checkbox
   > .modal-privacy-svg {
   fill: #f4f4fd;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .modal-privacy-svg {
   fill: transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-send-button {
@@ -790,12 +775,12 @@ p {
   color: #ffffff;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.modal-button-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .modal-send-button:hover,
 .modal-send-button:focus {
   background-color: #404bbf;
