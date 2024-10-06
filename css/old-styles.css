@@ -99,15 +99,11 @@
   color: #434455;
 }
 
-
-
 /* =======/advantages section styles====== */
 
 /* ========our team section styles========= */
 
-.our-team-section {
-  background-color: #f4f4fd;
-}
+
 .our-team-title {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -129,9 +125,7 @@
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.our-team-text-div {
-  padding: 32px 0;
-}
+
 .our-team-card-title {
   font-weight: 500;
   font-size: 20px;
@@ -150,195 +144,43 @@
   color: #434455;
   margin-bottom: 8px;
 }
-.our-team-social-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  margin: 0 16px;
-}
 
-.our-team-social-link {
-  background-color: #4d5ae5;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.our-team-social-link:hover,
-.our-team-social-link:focus {
-  background-color: #404bbf;
-}
-.our-team-social-icon {
-  fill: #f4f4fd;
-}
 /* ========/our team section styles========= */
 
 /* ========portfolio section styles========= */
 
-.portfolio-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-.portfolio-list {
-  display: flex;
-  column-gap: 24px;
-  row-gap: 48px;
-  flex-wrap: wrap;
-}
-.portfolio-card {
-  width: calc((100% - 2 * 24px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.portfolio-text-div {
-  padding: 32px 16px;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-}
-.portfolio-card-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-.portfolio-card-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.portfolio-img {
-  position: relative;
-  overflow: hidden;
-}
-.portfolio-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: #4d5ae5;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  padding: 40px 32px;
-  transform: translateY(100%);
-  overflow: auto;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.portfolio-card:hover .portfolio-overlay {
-  transform: translateY(0);
-}
-.portfolio-card:hover,
-.portfolio-card:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
+
+
+
+
+
 /* ========/portfolio section styles========= */
 
 /* ========footer styles ===========*/
-.page-footer {
-  background-color: #2e2f42;
-  padding: 100px 0;
-}
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
+
+
 .footer-main-info {
   margin-right: 120px;
 }
-.logo-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-bottom: 16px;
-  display: inline-block;
-}
-.footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  width: 264px;
-}
 
-.text-span-fot {
-  color: #f4f4fd;
-}
 
 .footer-social-div {
   margin-right: 80px;
 }
-.footer-social-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-  margin-bottom: 16px;
-}
 
-.footer-social-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-}
-.footer-social-item {
-  width: 40px;
-  height: 40px;
-}
-.footer-social-link {
-  background-color: #4d5ae5;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
 }
-.footer-social-icon {
-  fill: #f4f4fd;
-}
 
 .footer-subscribe {
 }
-.footer-subscribe-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-  margin-bottom: 16px;
-}
+
 .footer-form {
   display: flex;
 
